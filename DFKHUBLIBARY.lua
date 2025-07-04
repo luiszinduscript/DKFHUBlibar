@@ -552,10 +552,6 @@ RunService.Heartbeat:Connect(function()
     end
 end)
 
--- Inicializa com a tela da key visível
--- showScreen(nil) -- Linha removida/comentada
--- KeyGui.Enabled = true -- Linha removida/comentada
-
--- Habilita a First_Screen diretamente ao carregar o script
-First_Screen.Enabled = true
-KeyGui.Enabled = false -- Garante que a KeyGui está desabilitada se você não a quiser mais
+-- Inicializa as telas
+First_Screen.Enabled = true -- A First_Screen começa habilitada
+KeyGui.Enabled = false     -- A KeyGui começa desabilitada
